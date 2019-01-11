@@ -1,27 +1,45 @@
-# ZoomColorPicker
+# RaetColorPicker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+## What we want
+We have a components library filled with components that developers can use in their projects, and we're adding to it all the time. We'd like you to help us out by building the first version of the Color Picker. You'll find all the technical information below.
 
-## Development server
+## What we give you
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You'll find the basic Angular generated structure of the project ready to use. We use Angular on a daily basis, and we recommend you to take advantage of it.
 
-## Code scaffolding
+To get started using github just follow these simple steps(Prefered way):
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Fork the repo https://github.com/iamcucusa/zoom-color-picker 
+2. Go to the project directory and launch the server
+3. Find the instructions of the test in the app.component.html
+4. Have fun creating the standalone color picker
+5. Please submit a pull request 
 
-## Build
+To get started without using github just follow these simple steps(we do not like this way):
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. Download the folder of the repo https://github.com/iamcucusa/zoom-color-picker
+2. Go to the project directory and launch the server
+3. Find the instructions of the test in the app.component.html
+4. Have fun creating the standalone color picker
+5. Zip the folder and share it with us
 
-## Running unit tests
+## What we're excited about
+- HTML Semantics
+- Single responsability
+- LIFT
+- T-DRY
+- Composition
+- Structured CSS
+- Clean JS
+- Code readability
+- Browser compatibility (latest versions)
+- Unit testing
+- E2E testing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Feel free to deviate from the the design and requirements, but if you do so please be prepared to justify your choices.
 
-## Running end-to-end tests
+What do we expect ?
+We aim to see the implementation of a solution that fulfill the requirements with an engineering approach, keeping on mind scalability and good practices. 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

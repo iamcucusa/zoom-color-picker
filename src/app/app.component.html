@@ -1,20 +1,31 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<h1>Zoom Color Picker | UX guidelines</h1>
+<h2>Summary</h2>
+<p>The color picker lets users choose a color from a predefined color palette. See in the following link the way that behaves </p>
+<a href="https://preview.uxpin.com/71e1cb8c77919a35a797ebf052e05f8f89f83fa9#/pages//simulate/no-panels?mode=i" target="_blank"> Color Picker </a>
+<h2>What</h2>
+<p>With the color picker the user can select a color from a range of colors by showing the colors in a popover and showing
+  the selected color in a color select (form element).</p>
+<h2>How</h2>
+<h3>Selecting a color</h3>
+<p>The color picker consists of two parts: an input (form element) and a popover.</p>
+<p>When the user clicks on the input the popover is opened. To select a color, the user can click on a color tile in the
+  popover. Once the user clicks, the popover is closed and the selected color is displayed in the input.</p>
+<p>The user can browse through the colors by scrolling in the popover. </p>
+<h3>Closing the popover</h3>
+<p>The user can close the popover without selecting a color by clicking outside the popover.</p>
+<h3>Look and feel</h3>
+<p>The reset button is fixed on the bottom of the popover so that the user can easily reset the color without having to
+  scroll down.
+</p>
+<p>There is a clear visual distinction between different colors. Tones of the same color are visually grouped so that the
+  user can easily identify tones from colors.</p>
+<h3>Highlights</h3>
+<p>When the user hovers over a color, the color is highlighted for extra feedback.</p>
+<p>A selected color is marked as selected.</p>
+<h3>Default color & reset</h3>
+<p>By default, no color is selected.</p>
+<p>Once a color is selected, the user can remove the color by resetting the color to the default.</p>
+<h3>Number of colors</h3>
+<p>The number and types of colors in the color picker depend on where the color picker is used; they are defined by design.
+  The color picker can contain up to 50 colors.</p>
+<br>
