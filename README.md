@@ -38,8 +38,43 @@ To get started without using github just follow these simple steps(we do not lik
 
 Feel free to deviate from the the design and requirements, but if you do so please be prepared to justify your choices.
 
-What do we expect ?
+## What do we expect ?
 We aim to see the implementation of a solution that fulfill the requirements with an engineering approach, keeping on mind scalability and good practices. 
 
+## The test 
+
+## First assignment : Mandatory
+
+<h1> Zoom Color Picker | UX guidelines</h1>
+<h2>Summary</h2>
+<p>The color picker lets users choose a color from a predefined color palette. See in the following link the way that behaves </p>
+<a href="https://preview.uxpin.com/71e1cb8c77919a35a797ebf052e05f8f89f83fa9#/pages//simulate/no-panels?mode=i" target="_blank"> Color Picker </a>
+<h2>What</h2>
+<p>With the color picker the user can select a color from a range of colors by showing the colors in a popover and showing
+  the selected color in a color select (form element).</p>
+<h2>How</h2>
+<h3>Selecting a color</h3>
+<p>The color picker consists of two parts: an input (form element) and a popover.</p>
+<p>When the user clicks on the input the popover is opened. To select a color, the user can click on a color tile in the
+  popover. Once the user clicks, the popover is closed and the selected color is displayed in the input.</p>
+<p>The user can browse through the colors by scrolling in the popover. </p>
+<h3>Closing the popover</h3>
+<p>The user can close the popover without selecting a color by clicking outside the popover.</p>
+<h3>Look and feel</h3>
+<p>The reset button is fixed on the bottom of the popover so that the user can easily reset the color without having to
+  scroll down.
+</p>
+<p>There is a clear visual distinction between different colors. Tones of the same color are visually grouped so that the
+  user can easily identify tones from colors.</p>
+<h3>Highlights</h3>
+<p>When the user hovers over a color, the color is highlighted for extra feedback.</p>
+<p>A selected color is marked as selected.</p>
+<h3>Default color & reset</h3>
+<p>By default, no color is selected.</p>
+<p>Once a color is selected, the user can remove the color by resetting the color to the default.</p>
+<h3>Number of colors</h3>
+<p>The number and types of colors in the color picker depend on where the color picker is used; they are defined by design.
+  The color picker can contain up to 50 colors.</p>
+<br>
 
 
